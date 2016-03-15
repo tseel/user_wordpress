@@ -3,16 +3,34 @@
     <id>user_wordpress</id>
     <name>CloudPress</name>
     <description>Authenticate users using wordpress Database and allow them to share files into their wordpress blog(s)</description>
-    <version>0.4.0</version>
-    <licence>CC BY-NC 3.0</licence>
-    <author>Bastien Ho (EELV)</author>
-    <require>8.1.0</require>
+    <version>0.4.5</version>
+    <licence>AGPL</licence>
+    <author>Bastien Ho (EELV), Fork Europrimus</author>
+    <requiremin>8.1.0</requiremin>
+    <namespace>YourAppsNamespace</namespace>
+
     <types>
-        <authentication/>
-        <share/> 
-		<filesystem/>   
-	</types>
-	<remote>
-		<wordav>wordav.php</wordav>
-	</remote>
+    	<authentication/>
+        <filesystem/>
+    </types>
+
+
+    <documentation>
+        <user>https://github.com/europrimus/user_wordpress/</user>
+        <admin>https://github.com/europrimus/user_wordpress/</admin>
+    </documentation>
+
+    <category>tool</category>
+
+    <website>https://github.com/europrimus/user_wordpress/</website>
+
+    <bugs>https://github.com/europrimus/user_wordpress/</bugs>
+
+    <repository type="git">https://github.com/europrimus/user_wordpress/</repository>
+
+    <ocsid>154756</ocsid>
+
+    <dependencies>
+        <owncloud min-version="8.1.0" max-version="9.0.0"/>
+    </dependencies>
 </info>
